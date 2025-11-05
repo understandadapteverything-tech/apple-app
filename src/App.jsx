@@ -1,10 +1,14 @@
 import NavBar from "./components/NavBar.jsx"
+import Hero from "./components/Hero.jsx"
+import ProductViewer from "./components/ProductViewer.jsx"
+
 
 const App = () => {
   return (
     <mian>
         <NavBar />
-        <h1> Hello Macbook</h1>
+        <Hero />
+        <ProductViewer />
     </mian>
   )
 }
